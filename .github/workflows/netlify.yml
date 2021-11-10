@@ -6,5 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: yarn add global netlify-cli
-      - run: yarn netlify -v
+      - run: npm intall netlify-cli -g
+      - run: npm netlify -v
